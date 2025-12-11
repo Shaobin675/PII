@@ -5,7 +5,7 @@ from typing import List
 from fastapi import FastAPI, File, UploadFile, HTTPException, Form
 from fastapi.responses import JSONResponse, FileResponse
 import uvicorn
-from detectors import run_regex_detectors, deterministic_pseudonymize, redact_spans
+from detectors import run_regex_detectors, redact_spans
 from utils import extract_text_and_images_from_pdf, extract_text_from_image_file, ocr_image
 import spacy
 
