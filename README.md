@@ -3,7 +3,7 @@ Overview
 
 This project is an LLM-powered PII (Personally Identifiable Information) detection platform designed to identify and prevent sensitive data from leaving controlled boundaries. It targets logs, traces, PDFs, images, and knowledge-base text and is architected for enterprise-scale throughput while supporting HIPAA and similar regulatory compliance requirements.
 
-The system is built with a microservices architecture, designed to scale horizontally and handle:
+The system is to be built with a microservices architecture, designed to scale horizontally and handle:
 
 Individual documents larger than 100MB
 
@@ -15,9 +15,9 @@ The platform combines deterministic detection, ML-based NLP, and LLM-assisted re
 
 Key Capabilities
 
-PII detection in: Plain text (logs, traces, KB articles), PDFs (text-based and scanned), Images (OCR-based)
+PII detection in: Plain text (logs, traces, KB articles), PDFs (text-based and scanned), Images (OCR-based) - completed
 
-HIPAA-focused entity detection (PHI, identifiers, quasi-identifiers)
+HIPAA-focused entity detection (PHI, identifiers, quasi-identifiers) - completed
 
 Streaming and batch processing - working on it
 
