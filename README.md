@@ -19,10 +19,10 @@ PII detection in: Plain text (logs, traces, KB articles), PDFs (text-based and s
 
 HIPAA-focused entity detection (PHI, identifiers, quasi-identifiers)
 
-Streaming and batch processing
+Streaming and batch processing - working on it
 
-Microservice-based isolation of responsibilities
+Microservice-based isolation of responsibilities - working on it
 
-Designed for Kubernetes-native deployment
+Designed for Kubernetes-native deployment - working on it
 
-Kafka-based ingestion and backpressure control
+Kafka-based ingestion and backpressure control - working on it
